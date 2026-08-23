@@ -1,0 +1,20 @@
+# Core training / modeling
+torch
+transformers
+accelerate
+peft
+bitsandbytes          # 4-bit (NF4) quantization for QLoRA
+datasets              # streaming corpus loading (C4 / WikiText / OpenWebText)
+
+# Data collection
+spacy                 # POS tagging; also run: python -m spacy download en_core_web_sm
+vllm                  # batched LLM-prompted synonym generation
+
+# Evaluation
+mteb>=1.12            # MTEB embedding benchmark
+lm-eval              # lm-evaluation-harness CLI used by eval/eval_lm_harness.py
+
+# Utilities
+numpy
+tqdm
+wandb                 # optional experiment logging (set use_wandb=False to disable)

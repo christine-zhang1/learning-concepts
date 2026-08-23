@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "concept-training"
+version = "0.1.0"
+description = "Concept-loss fine-tuning over synonym sets, with data collection and evaluation."
+requires-python = ">=3.10"
+dynamic = ["dependencies"]
+
+[tool.setuptools]
+packages = ["conceptlib"]
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }

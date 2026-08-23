@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.ipynb_checkpoints/
+
+# Pipeline outputs (default CONCEPT_* roots; override via env vars)
+/datasets/
+/checkpoints/
+/results/
+/mteb_runs/
+
+# Experiment tracking
+wandb/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
