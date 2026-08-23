@@ -152,3 +152,19 @@ requires the `lm-eval` package (in `requirements.txt`).
 `eval_mteb.py` exposes two presets via `--tasks` (`sts`, `short`) or a
 comma-separated task list. `STS_PRESET` and `MTEB_SHORT_PRESET` (the `short`
 preset) are defined at the top of the script.
+
+## Citation
+
+If you find this repository useful, please cite:
+
+```bibtex
+@misc{zhang2026learningconceptstokensselfsupervised,
+      title={Learning Concepts, Not Tokens: Self-Supervised Semantic Alignment for Language Models}, 
+      author={Christine Zhang and Dan Jurafsky and Chen Shani},
+      year={2026},
+      eprint={2603.29123},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2603.29123}, 
+}
+```
