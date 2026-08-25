@@ -155,6 +155,8 @@ preset) are defined at the top of the script.
 
 ## Citation
 
+We will be presenting at EMNLP 2026 in Budapest!
+
 If you find this repository useful, please cite:
 
 ```bibtex
